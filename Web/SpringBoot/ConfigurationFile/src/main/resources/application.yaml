@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configurationfile
+server:
+  port: 8081
+
+#读取配置文件测试
+zjb:
+  demo: hello
+  numbers:
+    - one
+    - two
+    - three
