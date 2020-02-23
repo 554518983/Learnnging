@@ -15,6 +15,7 @@
 
     <modules>
         <module>ConfigurationFile</module>
+        <module>Aop</module>
     </modules>
     <dependencyManagement>
         <dependencies>
