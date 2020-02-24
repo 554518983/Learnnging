@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Aop" />
-        <module name="Bigdata" />
         <module name="ConfigurationFile" />
         <module name="SpringCloud" />
+        <module name="Zookeeper" />
       </profile>
     </annotationProcessing>
   </component>
