@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Aop" />
         <module name="ConfigurationFile" />
+        <module name="Flume" />
         <module name="SpringCloud" />
         <module name="Zookeeper" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
