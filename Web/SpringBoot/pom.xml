@@ -17,6 +17,7 @@
         <module>ConfigurationFile</module>
         <module>Aop</module>
         <module>Listener</module>
+        <module>Filter</module>
     </modules>
     <dependencyManagement>
         <dependencies>

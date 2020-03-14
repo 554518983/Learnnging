@@ -9,6 +9,7 @@
         <module name="Aop" />
         <module name="ClassLoader" />
         <module name="ConfigurationFile" />
+        <module name="Filter" />
         <module name="Flume" />
         <module name="Hbase" />
         <module name="Kafka" />
