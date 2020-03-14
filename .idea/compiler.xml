@@ -7,8 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Aop" />
+        <module name="ClassLoader" />
         <module name="ConfigurationFile" />
         <module name="Flume" />
+        <module name="Hbase" />
+        <module name="Kafka" />
+        <module name="Listener" />
         <module name="SpringCloud" />
         <module name="Zookeeper" />
       </profile>

@@ -11,6 +11,7 @@
     <modules>
         <module>Web</module>
         <module>Bigdata</module>
+        <module>Jdbc</module>
     </modules>
 
 
