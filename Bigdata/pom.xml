@@ -16,6 +16,7 @@
         <module>Flume</module>
         <module>Kafka</module>
         <module>Hbase</module>
+        <module>Hive</module>
     </modules>
 
 

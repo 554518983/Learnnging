@@ -12,6 +12,7 @@
         <module name="Filter" />
         <module name="Flume" />
         <module name="Hbase" />
+        <module name="Hive" />
         <module name="Kafka" />
         <module name="Listener" />
         <module name="SpringCloud" />

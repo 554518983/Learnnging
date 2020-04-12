@@ -51,6 +51,7 @@ public class HbaseCurd {
             if (isTableExist(tableName)) {
                 System.out.println("表" + tableName + "已经存在");
             } else {
+                //表描述
                 HTableDescriptor descriptor = new HTableDescriptor(TableName.valueOf(tableName));
                 //创建多列族
                 for (String cf : columnFamily) {
@@ -74,7 +75,9 @@ public class HbaseCurd {
     public static Boolean dropTable(String tableName) {
         try {
             if (isTableExist(tableName)) {
+                //禁用表
                 admin.disableTable(TableName.valueOf(tableName));
+                //删除表
                 admin.deleteTable(TableName.valueOf(tableName));
                 System.out.println(tableName + "被删除了");
                 return true;
@@ -99,7 +102,9 @@ public class HbaseCurd {
     public static Boolean addRowData(String tableName, String rowKey, String columnFamily, String column, String value) {
         Table table = null;
         try {
+            //获取已存在的表
             table = conn.getTable(TableName.valueOf(tableName));
+            //put代表一行数据
             Put put = new Put(Bytes.toBytes(rowKey));
             put.addColumn(Bytes.toBytes(columnFamily), Bytes.toBytes(column), Bytes.toBytes(value));
             table.put(put);
